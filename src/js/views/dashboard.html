@@ -1,0 +1,17 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <h1>Dashboard content area</h1>
+ 
+ <table data-bind="ojComponent: {component: 'ojTable',
+             data: dataSource,
+             columns: [
+                 {headerText: 'id', field:'id'},
+                 {headerText: 'name', field:'name'},
+                 {headerText: 'lastname', field:'lastname'},
+                 {headerText: 'financial_statement_status', field:'financial_statement_status'},
+                 {headerText: 'comments', field:'comments'},
+             ]
+         }">
+ </table>
